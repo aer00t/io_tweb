@@ -1,0 +1,12 @@
+.login {
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    margin-top: 150px;
+    border: solid 1px red;
+    text-align: left;
+}
+
+.login .titulo {
+    text-align: center;
+}
