@@ -20,7 +20,7 @@
             </div>
             <div class="boton_login">
                 <button type="button" class="btn btn-primary">Ingresar</button>
-                <a class="btn" href="#" readonly class="form-control-plaintext">Olvide mi contrase&ntilde;a</a>
+                <a class="btn btn-link" href="#" readonly class="form-control-plaintext">Olvide mi contrase&ntilde;a</a>
             </div>
             <br>
             <div class="alert alert-danger col-sm-10" role="alert">

@@ -1,7 +1,7 @@
 <?php?>
 
 <div class="container-fluid">
-    <h2>Alumnos</h2>
+    <h2>Gesti&oacute;n de Alumnos</h2>
 
     <div id="alumnos">
         <br>
@@ -33,7 +33,8 @@
 
 
     <!-- Modal -->
-    <div class="modal fade" id="modal_info_alumno" tabindex="-1" role="dialog" aria-labelledby="modal_info_alumno" aria-hidden="true" data-keyboard="false" data-backdrop="static">
+    <div class="modal fade" id="modal_info_alumno" tabindex="-1" role="dialog" aria-labelledby="modal_info_alumno" aria-hidden="true" 
+    data-keyboard="false" data-backdrop="static">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -45,27 +46,49 @@
                         <div class="form-row">
                             <div class="col-7">
                                 <label class="label_modal_alumno" for="modal_alumno_nombre">Nombre</label>
-                                <input id="modal_alumno_nombre" rows="1" class="form-control is-valid">
+                                <input type="text" value="" id="modal_alumno_nombre" class="form-control is-valid">
                             </div>
                             <div class="col-5">
                                 <label class="label_modal_alumno" for="modal_alumno_boleta">Boleta</label>
-                                <input id="modal_alumno_boleta" rows="1" class="form-control is-valid">
+                                <input type="text" value="" id="modal_alumno_boleta" class="form-control is-valid">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col-5">
                                 <label for="modal_alumno_correo" class="label_modal_alumno">Correo</label>
-                                <input id="modal_alumno_correo" rows="1" class="form-control is-valid">
+                                <input type="text" value="" id="modal_alumno_correo" class="form-control is-valid">
                             </div>
                             <div class="col-4">
                                 <label for="modal_alumno_telefono" class="label_modal_alumno">Tel&eacute;fono</label>
-                                <input id="modal_alumno_telefono" rows="1" class="form-control is-valid">
+                                <input type="text" value="" id="modal_alumno_telefono" class="form-control is-valid">
                             </div>
                             <div class="col-3">
                                 <label for="modal_alumno_calif" class="label_modal_alumno">Calificaci&oacute;n</label>
-                                <input id="modal_alumno_calif" rows="1" class="form-control is-invalid">
+                                <input type="text" value="" id="modal_alumno_calif" class="form-control is-invalid">
                             </div>
                         </div>
+                        <br>
+                        <?php for($i=0; $i<10; $i++){?>
+                            <div class="form-row">
+                                <div class="col-3">
+                                    <label for="modal_alumno_nom_preg" class="label_modal_alumno" >Pregunta</label>
+                                    <input type="text" value="" id="modal_alumno_nom_preg" readonly class="form-control-plaintext" >
+                                </div>
+                                <div class="col-5">
+                                    <label for="modal_alumno_nom_preg" class="label_modal_alumno" >Tipo</label>
+                                    <input type="text" value="" id="modal_alumno_tipoPreg" class="form-control" >
+                                </div>
+                                <div class="col-2">
+                                    <label for="modal_alumno_nom_preg" class="label_modal_alumno" >Buena</label>
+                                    <input type="text" value="" id="modal_alumno_evalPregBuena" class="form-control" >
+                                </div>
+                                <div class="col-2">
+                                    <label for="modal_alumno_nom_preg" class="label_modal_alumno" >Mala</label>
+                                    <input type="text" value="" id="modal_alumno_evalPregMala" class="form-control" >
+                                </div>
+                            </div>
+                            <br>
+                        <?php }?>
                     </form>
 
                 </div>

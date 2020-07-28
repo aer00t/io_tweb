@@ -43,7 +43,13 @@
                         </button>
                     </div>
                     <div class="modal-body ">
-                        <form action="">
+                        <form>
+                            <div class="form-group row text-left">
+                                <label for="user_nombre_add" class="col-sm-3 col-form-label">Nombre</label>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="user_nombre_add" placeholder="E.j. Jose Vargas per&eacute;z">
+                                </div>
+                            </div>
                             <div class="form-group row text-left">
                                 <label for="user_mail_add" class="col-sm-3 col-form-label">Correo</label>
                                 <div class="col-sm-8">
@@ -57,11 +63,12 @@
                                 </div>
                             </div>
                             <div class="form-group row text-left">
-                                <label for="user_id_add" class="col-sm-3 col-form-label">ID</label>
+                                <label for="user_id_add" class="col-sm-3 col-form-label">ID Personal</label>
                                 <div class="col-sm-8">
                                     <input type="text" class="form-control" id="user_id_add" placeholder="E.j. 1234567890">
                                 </div>
                             </div>
+
                         </form>
 
                     </div>
