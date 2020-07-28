@@ -12,16 +12,16 @@ body {
 }
 
 
-/* Parte del encabezado */
+/* Contenido del encabezado */
 
 #encabezado {
     margin-bottom: 30px;
-    border: solid 1px blue;
+    background-color: #343a40;
 }
 
 #banner {
     width: 100%;
-    height: 200px;
+    height: 130px;
 }
 
 #texto_nav {
@@ -51,10 +51,12 @@ body {
 /* Contenido del pie de pagina */
 
 #pie {
-    border: solid 1px blue;
+    background-color: #343a40;
     width: 100%;
     height: 350px;
     margin-top: 30px;
+    padding: 45px;
+    color: #f2f8f9;
 }
 
 
@@ -63,7 +65,14 @@ body {
 #dashboard_main {
     width: 100%;
     margin-top: 20px;
-    padding: 10px 0;
+    padding-left: 5%;
+    /* border: solid 1px red; */
+}
+
+#inner_dash {
+    width: 85%;
+    margin: auto;
+    /* border: solid 1px blue; */
 }
 
 .custom_card {
@@ -80,3 +89,42 @@ body {
     width: auto;
     height: 180px;
 }
+
+
+/* Contenido usuarios */
+
+#usuarios {
+    padding: 15px 10%;
+    text-align: center;
+}
+
+.usr_header {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.campos_usr {
+    margin-bottom: 5px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.7);
+    padding: 5px 0;
+}
+
+
+/* contenido alumnos */
+
+#alumnos {
+    padding: 0px 10%;
+    /* border: solid 1px blue; */
+}
+
+.campos_alumno {
+    margin-bottom: 7px;
+    border-bottom: solid 0.5px #cecece;
+}
+
+.label_modal_alumno {
+    font-weight: bold;
+}
+
+
+/* Contenido preguntas */
